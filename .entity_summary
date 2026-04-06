@@ -1,0 +1,6 @@
+- Übungsverwaltung (uebungsverwaltung): uebung_name[string/text], muskelgruppe[multiplelookup/checkbox], trainingstyp[lookup/radio], schwierigkeitsgrad[lookup/radio], geraet[lookup/select], beschreibung[string/textarea]
+- Fitnessziele (fitnessziele): ziel_bezeichnung[string/text], zieltyp[lookup/select], zielwert[number], zieleinheit[string/text], startdatum[date/date], zieldatum[date/date], status[lookup/radio], ziel_notizen[string/textarea]
+- Körpermessung (koerpermessung): messdatum[date/date], koerpergewicht[number], koerpergroesse[number], koerperfettanteil[number], muskelmasse[number], masse_brust[number], masse_taille[number], masse_huefte[number], masse_oberarm[number], masse_oberschenkel[number], messung_notizen[string/textarea]
+- Trainingsprotokoll (trainingsprotokoll): training_datum[date/datetimeminute], trainingsname[string/text], dauer_minuten[number], kalorien[number], intensitaet[lookup/radio], trainingsort[lookup/radio], ausgefuehrte_uebungen[multipleapplookup/select], uebungsdetails[string/textarea], zugeordnetes_ziel[applookup/select], stimmung[lookup/radio], training_notizen[string/textarea]
+  → ausgefuehrte_uebungen links to app_id 69d3a2b6bc04b90fcbc5a871
+  → zugeordnetes_ziel links to app_id 69d3a2bba8bdbc10cd5c9319
